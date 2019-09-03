@@ -12,6 +12,7 @@
 		EC2D905E231EF63C006C60BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2D905C231EF63C006C60BE /* Main.storyboard */; };
 		EC2D9060231EF63E006C60BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2D905F231EF63E006C60BE /* Assets.xcassets */; };
 		EC2D9063231EF63E006C60BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2D9061231EF63E006C60BE /* LaunchScreen.storyboard */; };
+		EC2D906C231F04C2006C60BE /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2D906B231F04C1006C60BE /* CountryTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EC2D905F231EF63E006C60BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC2D9062231EF63E006C60BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC2D9064231EF63E006C60BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC2D906B231F04C1006C60BE /* CountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				EC2D906A231EF647006C60BE /* Supporting Files */,
 				EC2D905A231EF63C006C60BE /* ViewController.swift */,
+				EC2D906B231F04C1006C60BE /* CountryTableViewCell.swift */,
 				EC2D905C231EF63C006C60BE /* Main.storyboard */,
 				EC2D905F231EF63E006C60BE /* Assets.xcassets */,
 				EC2D9064231EF63E006C60BE /* Info.plist */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC2D906C231F04C2006C60BE /* CountryTableViewCell.swift in Sources */,
 				EC2D905B231EF63C006C60BE /* ViewController.swift in Sources */,
 				EC2D9059231EF63C006C60BE /* AppDelegate.swift in Sources */,
 			);
